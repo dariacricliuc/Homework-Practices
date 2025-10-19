@@ -1,0 +1,30 @@
+.burger-checkbox {
+    display: none;
+}
+
+.burger {
+    font-size: 20px;
+}
+  
+.menu-list {
+    margin: 10px 0 0 0;
+    padding: 0;
+    background: purple;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+}
+  
+.burger-checkbox:checked ~ .menu-list {
+    display: flex;
+}
+  
+.menu-list a {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
